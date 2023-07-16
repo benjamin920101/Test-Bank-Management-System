@@ -1,6 +1,8 @@
 # 題庫管理系統
 
 這是一個使用Python和Tkinter GUI套件開發的題庫管理系統。這個系統允許使用者新增、修改和生成測驗題目。
+
+
 ![image](https://github.com/benjamin920101/Test-Bank-Management-System/assets/47590892/dfb85b7b-dfa7-48fe-9058-83d083c9bc5e)
 
 ## 功能
