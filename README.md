@@ -1,6 +1,6 @@
 # 題庫管理系統
 
-這是一個使用Python和Tkinter GUI套件開發的題庫管理系統。這個系統允許使用者新增、修改和生成測驗題目。
+這是一個使用Python和Tkinter GUI套件開發的題庫管理系統。這個系統可以讓使用者新增、修改和生成測驗題目。
 
 
 ![image](https://github.com/benjamin920101/Test-Bank-Management-System/assets/47590892/dfb85b7b-dfa7-48fe-9058-83d083c9bc5e)
@@ -40,7 +40,7 @@
 ## 注意事項
 
 - 系統會自動創建一個名為`questions.xlsx`的Excel檔案來存儲題庫資料。
-- Excel檔案預設包含一個名為`Sheet1`的工作表，用於存儲問題和答案。
+- Excel檔案預設包含一個名為`Sheet1`的工作表，用於儲存問題和答案。
 - 每次新增或修改問題和答案後，請點擊"保存修改"按鈕以確保資料已成功保存到Excel檔案。
 - 系統會自動生成兩個Word檔案，分別為`quiz.docx`和`answers.docx`，分別包含測驗題目和答案。
 - 若無法導出測驗和答案，可能是因為缺少必要的套件或發生了其他錯誤。
