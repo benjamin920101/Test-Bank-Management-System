@@ -1,7 +1,6 @@
 import tkinter as tk
 from openpyxl import Workbook, load_workbook
 from tkinter import ttk
-from tkinter import messagebox
 import random
 from tkinter import Tk, Label, Entry, Button, messagebox
 from docx import Document
@@ -235,9 +234,6 @@ class QuizManager:
 
         doc.save(output_file)
 
-
-
-
     # 生成測驗並導出到Word檔案
     def generate_quiz_and_export(self):
         num_questions = int(self.num_questions_entry.get())
@@ -256,11 +252,9 @@ class QuizManager:
         except:
             messagebox.showerror('錯誤', '無法導出測驗和答案。')
 
-
     # 啟動程式
     def run(self):
         self.window.mainloop()
-
 
 if __name__ == "__main__":
     quiz_manager = QuizManager()
